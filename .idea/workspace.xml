@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad801d84-0d7f-4e8d-bc75-b2182675130f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Selenium-JinRiTouTiao/JinRiTouTiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-JinRiTouTiao/JinRiTouTiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/detail_article_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao_detail_artile_spider/detail_article_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -260,6 +261,9 @@
       <workItem from="1574340009570" duration="490000" />
       <workItem from="1574343182268" duration="925000" />
       <workItem from="1574391055497" duration="7665000" />
+      <workItem from="1574560745532" duration="126000" />
+      <workItem from="1574721633596" duration="10000" />
+      <workItem from="1574776908209" duration="2329000" />
     </task>
     <servers />
   </component>

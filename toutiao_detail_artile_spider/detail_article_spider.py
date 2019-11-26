@@ -2,17 +2,17 @@ import telnetlib
 import json
 import random
 from multiprocessing.pool import Pool
-import multiprocessing
 from selenium import webdriver
 import time
 import threading
 from selenium.common.exceptions import NoSuchElementException
+import redis
 
 proxy_lock = threading.Lock()
 proxy = {}
 ips = []
-mark = 0
-mark_lock = threading.Lock()
+rd = redis.Redis("10.108.36.113","6379")
+
 
 
 def get_proxy():
@@ -32,17 +32,7 @@ def get_proxy():
 
 
 def get_urls():
-    global mark
-    global mark_lock
-    with open("mark_locate.csv") as csvfile:
-        mLines = csvfile.readlines()
-    targetLine = mLines[-1]
-
-    mark_lock.acquire()
-    try:
-        mark = int( targetLine.split(',')[0])
-    finally:
-        mark_lock.release()
+    mark = rd.incr("toutiao_mark")
     i =0
     ids=[]
     with open('toutiao_cat_data.txt','r+') as fp:
@@ -62,8 +52,6 @@ def get_urls():
 
 def get_articles(a_id):
     global content
-    global mark_lock
-    global mark
     options = webdriver.FirefoxOptions()
     options.add_argument('--headless')
     options.set_preference('permissions.default.image', 2)
@@ -110,14 +98,6 @@ def get_articles(a_id):
     # print(title)
     with open(title, 'w') as fp:
         fp.write(content)
-    mark_lock.acquire()
-    try:
-        with open('mark_locate.csv', 'a+') as f2:
-            mark = mark + 4
-            f2.write('\n')
-            f2.write(str(mark))
-    finally:
-        mark_lock.release()
 
 
 class Myselenium(object):
