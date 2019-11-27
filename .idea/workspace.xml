@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ad801d84-0d7f-4e8d-bc75-b2182675130f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iplist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_crawl/36kr_crawl/iplist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/article.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/detail_article_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao_detail_artile_spider/detail_article_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/ip_pool_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/mark_locate.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao_detail_artile_spider/sql_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/verified_proxies.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,29 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.detail_article_spider">
-    <configuration name="caijing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawlText" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/caijing_crawl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/caijing_crawl/caijing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.handle_text">
     <configuration name="caijing_article" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawlText" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,6 +149,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="handle_stopword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawlText" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fenci" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fenci/handle_stopword.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handle_text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawlText" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fenci" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fenci/handle_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ip_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawlText" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,35 +215,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kr36_id_crawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="crawlText" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text_crawl/36kr_crawl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_crawl/36kr_crawl/kr36_id_crawl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_text" />
+        <item itemvalue="Python.handle_stopword" />
+        <item itemvalue="Python.ip_spider" />
         <item itemvalue="Python.detail_article_spider" />
         <item itemvalue="Python.caijing_article" />
-        <item itemvalue="Python.kr36_id_crawl" />
-        <item itemvalue="Python.ip_spider" />
-        <item itemvalue="Python.caijing" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +276,7 @@
       <workItem from="1574560745532" duration="126000" />
       <workItem from="1574721633596" duration="10000" />
       <workItem from="1574776908209" duration="2329000" />
+      <workItem from="1574780204328" duration="7061000" />
     </task>
     <servers />
   </component>
@@ -285,6 +298,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/crawlText$tech_crawl.coverage" NAME="tech_crawl Coverage Results" MODIFIED="1574153800138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text_crawl/toutiao_crawl" />
+    <SUITE FILE_PATH="coverage/crawlText$handle_text.coverage" NAME="handle_text Coverage Results" MODIFIED="1574819627505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fenci" />
     <SUITE FILE_PATH="coverage/crawlText$ip_pool_spider.coverage" NAME="ip_pool_spider Coverage Results" MODIFIED="1574238699340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/toutiao_detail_artile_spider" />
     <SUITE FILE_PATH="coverage/crawlText$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1574220633273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawlText$caijing_article.coverage" NAME="caijing_article Coverage Results" MODIFIED="1574505303725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caijing_crawl" />
@@ -294,7 +308,8 @@
     <SUITE FILE_PATH="coverage/crawlText$sql_util.coverage" NAME="sql_util Coverage Results" MODIFIED="1574245829991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/toutiao_detail_artile_spider" />
     <SUITE FILE_PATH="coverage/crawlText$test.coverage" NAME="test Coverage Results" MODIFIED="1574153784615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawlText$sql_util__1_.coverage" NAME="sql_util (1) Coverage Results" MODIFIED="1574241636757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text_crawl/36kr_crawl" />
-    <SUITE FILE_PATH="coverage/crawlText$ip_spider.coverage" NAME="ip_spider Coverage Results" MODIFIED="1574299483218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crawlText$handle_stopword.coverage" NAME="handle_stopword Coverage Results" MODIFIED="1574816869382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fenci" />
+    <SUITE FILE_PATH="coverage/crawlText$ip_spider.coverage" NAME="ip_spider Coverage Results" MODIFIED="1574815389059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawlText$article_spider.coverage" NAME="article_spider Coverage Results" MODIFIED="1574156952200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text_crawl/toutiao_crawl" />
     <SUITE FILE_PATH="coverage/crawlText$testip.coverage" NAME="testip Coverage Results" MODIFIED="1574236429479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crawlText$caijing.coverage" NAME="caijing Coverage Results" MODIFIED="1574256398567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caijing_crawl" />

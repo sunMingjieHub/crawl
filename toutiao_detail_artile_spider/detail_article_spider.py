@@ -51,6 +51,7 @@ def get_urls():
 
 
 def get_articles(a_id):
+    rd.incr("toutiao_mark")
     global content
     options = webdriver.FirefoxOptions()
     options.add_argument('--headless')
